@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Questions categories on Data Engineering Interviews</title>
+    <link>https://data-engineering-interviews.org/questions/</link>
+    <description>Recent content in Questions categories on Data Engineering Interviews</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://data-engineering-interviews.org/questions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Databases</title>
+      <link>https://data-engineering-interviews.org/questions/databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-engineering-interviews.org/questions/databases/</guid>
+      <description>Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.
+Edit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    Name types of join methods RDBMS (e.g. postres) supports? 🚀 TBD
+References:
+ https://severalnines.com/database-blog/overview-join-methods-postgresql  What is &amp;lsquo;nested loops join&amp;rsquo;? 👶 It&#39;s a basic approach databse engine takes to join two tables: for every value (external loop) of the &#39;left&#39; table&#39;s join key column, the engine loops (inner loop) over the values of the &#39;right&#39; table&#39;s join key column and selects the matching rows.</description>
+    </item>
+    
+    <item>
+      <title>Distributed computing</title>
+      <link>https://data-engineering-interviews.org/questions/distributed-computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-engineering-interviews.org/questions/distributed-computing/</guid>
+      <description>Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.
+Edit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    What is MapReduce, how it works? ⭐ TBD
+References:
+  link1
+  link2
+  Assuming that your have developed a pyspark program to process a data batch, how spark executes it?</description>
+    </item>
+    
+    <item>
+      <title>Infrastructure and os</title>
+      <link>https://data-engineering-interviews.org/questions/infrastructure-and-os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-engineering-interviews.org/questions/infrastructure-and-os/</guid>
+      <description>Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.
+Edit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    What is default gateway? ⭐ TBD
+References:
+  link1
+  link2
+  Imagine you upload a file to s3 bucket and receive 503 http error.</description>
+    </item>
+    
+    <item>
+      <title>Message broker</title>
+      <link>https://data-engineering-interviews.org/questions/message-broker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-engineering-interviews.org/questions/message-broker/</guid>
+      <description>Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.
+Edit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    Explain how kafka works? ‍⭐ TBD
+References:
+  link1
+  link2
+  YOUR QUESTION1 HERE? References:
+  link1</description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://data-engineering-interviews.org/questions/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://data-engineering-interviews.org/questions/programming/</guid>
+      <description>Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.
+Edit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    What is one-liner? Give example in python. 👶 TBD
+References:
+  link1
+  link2
+  What does object mutability mean?</description>
+    </item>
+    
+  </channel>
+</rss>

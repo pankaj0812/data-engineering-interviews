@@ -1,0 +1,71 @@
+[
+{
+	"uri": "https://data-engineering-interviews.org/",
+	"title": "Home",
+	"tags": [],
+	"description": "",
+	"content": "Data engineering related Q\u0026amp;A for data community by data community.\nQuestions categories Total number of questions as of 2020-06-01: 24\n   Category Number of questions     Message broker 2   Infrastructure and os 3   Programming 5   Distributed computing 2   Databases 12    Contribution It is fully community driven project - your contribution matters:\n If you know a question you would like to share — please create a PR If you know how to answer a question — please create a PR with the answer If you think you can improve an answer — please create a PR with improvement suggestion If you see a mistake — please create a PR and propose a fix  For updates, join our slack workspace and follow me on LinkedIn (dkisler).\nRespect your peers and follow our code of conduct\nList of contributors\n"
+},
+{
+	"uri": "https://data-engineering-interviews.org/questions/databases/",
+	"title": "Databases",
+	"tags": [],
+	"description": "",
+	"content": " Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.\nEdit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    Name types of join methods RDBMS (e.g. postres) supports? 🚀 TBD\nReferences:\n https://severalnines.com/database-blog/overview-join-methods-postgresql  What is \u0026lsquo;nested loops join\u0026rsquo;? 👶 It's a basic approach databse engine takes to join two tables: for every value (external loop) of the 'left' table's join key column, the engine loops (inner loop) over the values of the 'right' table's join key column and selects the matching rows. This approach is basic and has the time complexity of O(n**2).\nReferences:\n  https://use-the-index-luke.com/sql/join/nested-loops-join-n1-problem\n  https://www.youtube.com/watch?v=WfuLUE7lccs\n  What is \u0026lsquo;hash join\u0026rsquo;? ⭐️ Hash join is an optimizaton approach database engine may take to speed up a process of tables join. In this case, a in-memory hash table(s) is being generated using the values of the 'left' table's join key column(s). The hash table values are used afterward to find matching rows of the 'right' table. The hash join approach is faster compared to the nested loops join, it however has a limitation: whole hash table must fit into memory of the database machine. Another pro of hash join is, one doesn't need to index join key columns. The time complexity of such algorithm is O(n_left + n_right), where n_left = number of 'left' table's rows, n_right = number of 'right' table's rows.\nReferences:\n  https://use-the-index-luke.com/sql/join/hash-join-partial-objects\n  https://www.youtube.com/watch?v=mlokdBiaMek\n  When hash join may be selected by optimizer? 🚀 TBD\nReferences:\n link1  What\u0026rsquo;s the difference between transactional and analytics databases? 👶 TBD\nReferences:\n link1  What\u0026rsquo;s the difference between star and snowflake schema? 👶 TBD\nReferences:\n link1  Exlapin data normalization process? Why data are being normalized and denormalized in database? What\u0026rsquo;s preferable for analytics db? 👶 TBD\nReferences:\n link1  What is window function? ⭐️ TBD\nReferences:\n link1  How to set dist keys in redshift? What strategies do you know? ⭐️ TBD\nReferences:\n link1  When would you use left join and when left outer join? 👶 TBD\nReferences:\n link1  What is WAL in postgres? Why it is being used? 🚀 TBD\nReferences:\n link1  What is table size limitation for postgres? 🚀 TBD\nReferences:\n link1  "
+},
+{
+	"uri": "https://data-engineering-interviews.org/questions/distributed-computing/",
+	"title": "Distributed computing",
+	"tags": [],
+	"description": "",
+	"content": " Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.\nEdit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    What is MapReduce, how it works? ⭐ TBD\nReferences:\n  link1\n  link2\n  Assuming that your have developed a pyspark program to process a data batch, how spark executes it? 🚀 TBD\nReferences:\n  link1\n  link2\n  "
+},
+{
+	"uri": "https://data-engineering-interviews.org/questions/infrastructure-and-os/",
+	"title": "Infrastructure and os",
+	"tags": [],
+	"description": "",
+	"content": " Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.\nEdit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    What is default gateway? ⭐ TBD\nReferences:\n  link1\n  link2\n  Imagine you upload a file to s3 bucket and receive 503 http error. How would you troubleshoot and what possible solutions would you suggest? ⭐ TBD\nReferences:\n  link1\n  link2\n  A network resource is unavailable, how would you troubleshoot this issue? 👶 TBD\nReferences:\n  link1\n  link2\n  "
+},
+{
+	"uri": "https://data-engineering-interviews.org/questions/message-broker/",
+	"title": "Message broker",
+	"tags": [],
+	"description": "",
+	"content": " Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.\nEdit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    Explain how kafka works? ‍⭐ TBD\nReferences:\n  link1\n  link2\n  YOUR QUESTION1 HERE? References:\n  link1\n  link2\n  "
+},
+{
+	"uri": "https://data-engineering-interviews.org/questions/programming/",
+	"title": "Programming",
+	"tags": [],
+	"description": "",
+	"content": " Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.\nEdit questions     Legend  👶 easy ‍⭐ medium 🚀 expert    What is one-liner? Give example in python. 👶 TBD\nReferences:\n  link1\n  link2\n  What does object mutability mean? Give example of mutable and immutable data types in py ‍⭐ TBD\nReferences:\n  link1\n  link2\n  What is the difference between generator and iterator in python? 🚀 TBD\nReferences:\n  link1\n  link2\n  What is garbage collector? How does it work in python? 🚀 TBD\nReferences:\n  link1\n  link2\n  Why GIL is used in python? 🚀 TBD\nReferences:\n  link1\n  link2\n  "
+},
+{
+	"uri": "https://data-engineering-interviews.org/questions/",
+	"title": "Questions categories",
+	"tags": [],
+	"description": "",
+	"content": " Warning  The answers here are given by the community. Be careful and double check the answers before using them. If you see an error, please create a PR with a fix.      Message broker (2 questions)\n  Infrastructure and os (3 questions)\n  Programming (5 questions)\n  Distributed computing (2 questions)\n  Databases (12 questions)\n  "
+},
+{
+	"uri": "https://data-engineering-interviews.org/code-of-conduct/",
+	"title": "Code of conduct",
+	"tags": [],
+	"description": "",
+	"content": "Our Pledge We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\nOur Standards Examples of behavior that contributes to a positive environment for our community include:\n Demonstrating empathy and kindness toward other people Being respectful of differing opinions, viewpoints, and experiences Giving and gracefully accepting constructive feedback Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience Focusing on what is best not just for us as individuals, but for the overall community  Examples of unacceptable behavior include:\n The use of sexualized language or imagery, and sexual attention or advances of any kind Trolling, insulting or derogatory comments, and personal or political attacks Public or private harassment Publishing others\u0026rsquo; private information, such as a physical or email address, without their explicit permission Other conduct which could reasonably be considered inappropriate in a professional setting  Enforcement Responsibilities Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\nScope This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\nEnforcement Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at email. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\nEnforcement Guidelines Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n1. Correction Community Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n2. Warning Community Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n3. Temporary Ban Community Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n4. Permanent Ban Community Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\nAttribution This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla\u0026rsquo;s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.\n"
+},
+{
+	"uri": "https://data-engineering-interviews.org/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://data-engineering-interviews.org/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
